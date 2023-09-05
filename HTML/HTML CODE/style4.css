@@ -1,0 +1,27 @@
+/* TEXT SHADOW */
+h1{
+    text-shadow: 5px 5px 5px red;
+    /* First px--> gives horizontal shadow, second px--> gives vertical shadow, third px--> gives transparency*/
+    text-shadow: 5px 5px 5px red, 7px -7px 7px green;
+    text-shadow: 5px 5px 5px red, 7px 7px 7px green;
+    width:300px;
+    height:120px;
+    border:3px solid black;
+}
+
+/* BOX SHADOW */
+.div1{
+    color:forestgreen;
+    background-color: aquamarine;
+    height: 300px;
+    width: 200px;
+    margin: 50px;
+    box-shadow:15px 15px 15px purple;
+    /* To add multiple color shadow */
+    box-shadow:15px 15px 15px purple,20px 20px 15px yellow;
+    /* To change shadow direction we give negative values */
+    box-shadow:15px -15px 15px purple,20px 20px 15px yellow;
+    box-shadow:-15px -15px 15px purple,20px 20px 15px yellow;
+     /* First px--> gives horizontal shadow, second px--> gives vertical shadow, third px--> gives transparency, fourth px--> gives  defines the spread of the shadow*/
+    box-shadow:-15px -15px 15px 20px purple,20px 20px 15px yellow;
+}

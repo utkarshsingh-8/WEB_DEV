@@ -1,0 +1,55 @@
+/* 1.Simple Selectors
+ a-Element Selectors
+ b-ID Selectors
+ c-Class Selectors
+
+2.Universal Selector:(*)
+3.Grouping Selector
+4.Nested Selector */
+
+/* SPECIFICITY ORDER(ID>CLASS>ELEMENT) */
+
+/* UNIVERSAL SELECTOR */
+/* * {
+    font-family:fantasy;
+} */
+
+/* ELEMENT SELECTOR */
+body {
+    background-color: bisque;
+    margin-left: 50px;
+}
+
+/* ELEMENT SELECTOR */
+h1 {
+    text-align: center;
+    font-size: 60px;
+    color: #000000;
+}
+
+/* ID SELECTOR */
+#first {
+    color: red;
+}
+
+/* CLASS SELECTOR */
+.purple {
+    color: purple;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* CLASS SELECTOR */
+.highlight {
+    background-color: yellow;
+    font-style: italic;
+}
+
+/* GROUPING SELECTOR */
+#first ,#second{
+    font-style: oblique;
+}
+
+/* NESTED SELECTOR */
+#first>p{
+    background-color: darkgoldenrod;
+}

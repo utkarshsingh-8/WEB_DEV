@@ -1,0 +1,15 @@
+.div1{
+    background-color: aqua;
+    margin:200px;
+    transform: rotate(90deg);
+    transform: translate(50px,50px);
+    transform: translateX(100px);
+    transform: translateY(100px);
+    transform:scale(2,5);
+    transform:scaleX(2);
+    transform:scaleY(5);
+    transform: skew(-15deg);
+    transform: skewX(15deg);
+    transform: skewY(20deg);
+
+}

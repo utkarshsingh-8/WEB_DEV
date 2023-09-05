@@ -1,0 +1,25 @@
+.wrapper{
+    height: 2000px;
+    width: 100vw;
+    background-color: rgba(238, 255, 0, 0.573);
+
+}
+
+.aa11{
+    height: 150px;
+    width:150px;
+    background-color:aqua;
+    margin:50px;
+    border:1px solid black;
+
+}
+
+#translated{
+    transform:perspective(50px) translateZ(-80px);
+}
+
+#scaled{
+    margin:150px;
+    transform:rotateZ(45deg);
+    transform:perspective(350px) scaleZ(2) rotateX(45deg) rotateY(30deg);
+}

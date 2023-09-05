@@ -1,0 +1,44 @@
+/* LInear Gradient(required minimum 2 colors for transition) */
+.linear{
+    border: 2px solid black;
+    width: 150px;
+    height: 200px;
+    /* Default direction */
+    background-image: linear-gradient(red,blue);
+    /* Using Specific Direction */
+    background-image: linear-gradient(to left, red,blue);
+    background-image: linear-gradient(to right, red,blue);
+    background-image: linear-gradient(to top, red,blue);
+    background-image: linear-gradient(to top right, red,blue);
+    background-image: linear-gradient(to top left, red,blue);
+    background-image: linear-gradient(to bottom, red,blue);
+    background-image: linear-gradient(to bottom right, red,blue);
+    background-image: linear-gradient(to bottom left, red,blue);
+    /* Using Angles */
+    background-image: linear-gradient(45deg,red,blue);
+    /* Using Transparency */
+    background-image: linear-gradient(to bottom,rgba(255,0,0,0),rgba(0,0,255,1));
+}
+
+
+/* Radial Gradient */
+.radial{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    background-image: radial-gradient(red,blue);
+    background-image: radial-gradient(red,blue,orange);
+    background-image: radial-gradient(rectangle,red,blue);
+    background-image: radial-gradient(yellow 5%,red 10%,orange 50%);
+}
+
+.conic{
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    background-image: conic-gradient(red 90deg,blue 270deg);
+    background-image: conic-gradient(from 90deg ,red ,blue );
+    background-image: conic-gradient(at 60% 45% ,red ,blue );
+}
