@@ -1,0 +1,16 @@
+.container{
+    background-color:yellow;
+    border: 2px solid brown;
+    height:500px;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;  
+    grid-template-rows:100px 100px 100px 100px;
+  }
+  
+  .box{
+    background-color:aqua;
+    border: 1px solid black;
+    height:80px;
+    width:80px;
+    
+  }

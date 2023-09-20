@@ -1,0 +1,29 @@
+/* BACKGROUND PROPERTY */
+.hello {
+  /* background-color: rgba(rgb(216, 19, 125), green, blue, 0.6); */
+  /* background-color: aqua; */
+  /* opacity: 0.6; */
+  /* background-position: right top; */
+  /* background-image: url(/IMG_4982.jpg);
+    background-repeat: no-repeat;
+    background-size:80%;
+    background-clip:content-box;
+    height:500px;
+    width: 300px;
+    padding:20px;
+    border:5px solid black; */
+}
+
+/* BORDER PROPERTY */
+.border_1 {
+  border-style: solid;
+  /* border-style: dotted; */
+  /* border-width:2px; */
+  /* border-color:red; */
+  /* border-width: thick;
+  border-width: 7px 5px;
+  border-color: red blueviolet;
+  border-radius: 7px; */
+}
+
+

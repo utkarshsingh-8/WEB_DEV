@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter Variable</title>
+  </head>
+  <style>
+
+    body {
+      counter-reset: section;
+      margin: 50px;
+      padding: 100px;
+      background-color: aquamarine;
+    }
+
+    h2::before {
+      content: "Chapter " counter(section,lower-alpha) " : ";
+      counter-increment: section;
+    }
+
+  </style>
+  <body>
+    <h1>Use of Counter Variable</h1>
+    <h2>Lorem ipsum dolor sit.</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sed
+      ratione repellendus nulla quidem dolor?
+    </p>
+    <h2>Lorem ipsum dolor sit.</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sed
+      ratione repellendus nulla quidem dolor?
+    </p>
+    <h2>Lorem ipsum dolor sit.</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sed
+      ratione repellendus nulla quidem dolor?
+    </p>
+    <h2>Lorem ipsum dolor sit.</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sed
+      ratione repellendus nulla quidem dolor?
+    </p>
+    <h2>Lorem ipsum dolor sit.</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sed
+      ratione repellendus nulla quidem dolor?
+    </p>
+  </body>
+</html>
